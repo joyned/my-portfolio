@@ -106,6 +106,7 @@ export class HomeComponent {
       projectName: 'Venus Data Center Portal',
       projectDescription:
         'A Data Center Portal built with React.js. It provides a set of tools for managing data centers, servers, and storage in a multi-tenant environment. It also includes a set of best practices and guidelines for building scalable and maintainable applications.',
+      projectLink: 'https://venus-data-center-portal.onrender.com',
       projectGithub: 'https://github.com/joyned/venus-data-center-portal',
       projectStatus: 'In Progress (Functional)',
     },
@@ -114,6 +115,7 @@ export class HomeComponent {
       projectName: 'Venus Data Center API',
       projectDescription:
         'A RESTful API built with Spring Boot. It provides a set of endpoints for managing data centers, servers, and storage in a multi-tenant environment. It also includes a set of best practices and guidelines for building scalable and maintainable applications.',
+      projectLink: 'https://venus-data-center-portal.onrender.com',
       projectGithub: 'https://github.com/joyned/venus-data-center-api',
       projectStatus: 'In Progress (Functional)',
     },
