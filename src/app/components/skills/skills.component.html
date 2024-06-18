@@ -1,0 +1,15 @@
+<div class="skills-container">
+  <h1>My Skills</h1>
+  <div class="skills-content">
+    <ng-container *ngFor="let skill of skills">
+      <div class="skill">
+        <div class="skill-icon">
+          <img [src]="skill.icon" alt="skill.name">
+          <div class="skill-name">
+            {{ skill.skillName }}
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

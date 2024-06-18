@@ -1,0 +1,47 @@
+.about-page-container {
+  padding-top: 30px;
+
+  .about-page-info {
+    display: flex;
+    align-items: center;
+    gap: 6em;
+    margin-bottom: 20px;
+
+    .about-page-info-text {
+      h1 {
+        font-size: xxx-large;
+      }
+
+      .about-page-links {
+        margin-top: 20px;
+        display: flex;
+        width: 30px;
+        height: 30px;
+        gap: 10px;
+        cursor: pointer;
+
+        a {
+          display: inline-block;
+        }
+
+        a img {
+          display: block;
+          width: 35px;
+        }
+      }
+    }
+
+    .about-page-info-image {
+      display: flex;
+      align-items: center;
+      width: 512px;
+      height: 512px;
+
+      img {
+        width: 25vw;
+      }
+    }
+  }
+
+
+}

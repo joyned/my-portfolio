@@ -1,0 +1,30 @@
+<div class="project-component-main">
+  <div class="projects-componet" *ngFor="let project of projects">
+    <div class="project-container">
+      <div class="project-content">
+        <div class="project-header">
+          <div class="project-logo">
+            <img src={{project.projectLogo}} alt="">
+          </div>
+          <div class="project-title">
+            {{project.projectName}}
+          </div>
+        </div>
+        <div class="project-body">
+          {{project.projectDescription}}
+
+          <div class="project-status">
+            Status:
+            <span class="project-status-text">
+              {{project.projectStatus}}
+            </span>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="{{project.projectLink}}" target="_blank">View Project</a>
+          <a href="{{project.projectGithub}}" target="_blank">View Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
