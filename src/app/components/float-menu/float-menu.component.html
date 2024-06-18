@@ -6,11 +6,11 @@
     <div class="menu-item" (click)="goTo('about')">
       <span>About</span>
     </div>
-    <div class="menu-item">
-      <span *ngIf="!darkModeService.isDarkMode()" (click)="changeTheme()">
+    <div class="menu-item" (click)="changeTheme()">
+      <span *ngIf="!darkModeService.isDarkMode()">
         <img src="../../../assets/images/moon-svgrepo-com.svg">
       </span>
-      <span *ngIf="darkModeService.isDarkMode()" (click)="changeTheme()">
+      <span *ngIf="darkModeService.isDarkMode()">
         <img src="../../../assets/images/sun-2-svgrepo-com.svg">
       </span>
     </div>

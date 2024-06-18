@@ -4,7 +4,7 @@ $bgColor_dark: #3c3c3c;
 $bgPanel_light: white;
 $bgPanel_dark: #2c2c2c;
 
-$textColor_light: black;
+$textColor_light: #65656d;
 $textColor_dark: white;
 
 @mixin lighten() {
@@ -23,19 +23,15 @@ body.dark {
   @include darken();
 }
 
-body.light {
-  @include lighten();
-}
-
 body {
+  @include lighten();
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   background-color: var(--bgColor);
-  font-family: 'Montserrat', sans-serif;
 }
-
-/* You can add global styles to this file, and also import other style files */
 
 p,
 span {
   color: var(--textColor);
+  font-size: 15px;
 }
