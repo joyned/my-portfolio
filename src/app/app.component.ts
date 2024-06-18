@@ -6,6 +6,7 @@ import { FloatMenuComponent } from './components/float-menu/float-menu.component
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { SkillsComponent } from './components/skills/skills.component';
     AboutMeComponent,
     FooterComponent,
     SkillsComponent,
+    WhatsappComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

@@ -1,0 +1,24 @@
+.whatsapp-container {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  cursor: pointer;
+  animation: pular 0.5s infinite alternate;
+
+
+  img {
+    width: 50px;
+  }
+}
+
+@keyframes pular {
+  0% {
+    transform: translateY(0);
+    /* Sem deslocamento vertical */
+  }
+
+  100% {
+    transform: translateY(-20px);
+    /* Deslocamento para cima */
+  }
+}
