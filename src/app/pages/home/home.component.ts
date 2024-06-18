@@ -80,7 +80,6 @@ export class HomeComponent {
       projectName: 'Venus Framework',
       projectDescription:
         'A Java framework for building microservices and web applications. It provides a set of common libraries and utilities for building enterprise applications. It also includes a set of best practices and guidelines for building scalable and maintainable applications',
-      projectLink: 'https://www.project3.com',
       projectGithub: 'https://github.com/joyned/venus-framework',
       projectStatus: 'In Progress',
     },
@@ -89,7 +88,7 @@ export class HomeComponent {
       projectName: 'Venus IAM Portal',
       projectDescription:
         'A IAM Portal built with React.js. It provides a set of tools for managing users, roles, and permissions in a multi-tenant environment. It also includes a set of best practices and guidelines for building scalable and maintainable applications.',
-      projectLink: 'https://www.project1.com',
+      projectLink: 'https://venus-iam-portal.netlify.app/',
       projectGithub: 'https://github.com/joyned/venus-iam-portal',
       projectStatus: 'In Progress (Functional)',
     },
@@ -98,7 +97,7 @@ export class HomeComponent {
       projectName: 'Venus IAM API',
       projectDescription:
         'A RESTful API built with Node.js and Express.js. It provides a set of endpoints for managing users, roles, and permissions in a multi-tenant environment. It also includes a set of best practices and guidelines for building scalable and maintainable applications.',
-      projectLink: 'https://www.project2.com',
+      projectLink: 'https://venus-iam-portal.netlify.app/',
       projectGithub: 'https://github.com/joyned/venus-iam-api',
       projectStatus: 'In Progress (Functional)',
     },
@@ -107,7 +106,6 @@ export class HomeComponent {
       projectName: 'Venus Data Center Portal',
       projectDescription:
         'A Data Center Portal built with React.js. It provides a set of tools for managing data centers, servers, and storage in a multi-tenant environment. It also includes a set of best practices and guidelines for building scalable and maintainable applications.',
-      projectLink: 'https://www.project4.com',
       projectGithub: 'https://github.com/joyned/venus-data-center-portal',
       projectStatus: 'In Progress (Functional)',
     },
@@ -116,7 +114,6 @@ export class HomeComponent {
       projectName: 'Venus Data Center API',
       projectDescription:
         'A RESTful API built with Spring Boot. It provides a set of endpoints for managing data centers, servers, and storage in a multi-tenant environment. It also includes a set of best practices and guidelines for building scalable and maintainable applications.',
-      projectLink: 'https://www.project5.com',
       projectGithub: 'https://github.com/joyned/venus-data-center-api',
       projectStatus: 'In Progress (Functional)',
     },

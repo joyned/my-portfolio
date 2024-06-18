@@ -21,8 +21,8 @@
           </div>
         </div>
         <div class="project-links">
-          <a href="{{project.projectLink}}" target="_blank">View Project</a>
-          <a href="{{project.projectGithub}}" target="_blank">View Github</a>
+          <a *ngIf="project.projectLink" href="{{project.projectLink}}" target="_blank">View Project</a>
+          <a *ngIf="project.projectGithub" href="{{project.projectGithub}}" target="_blank">View Github</a>
         </div>
       </div>
     </div>

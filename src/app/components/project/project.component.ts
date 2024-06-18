@@ -1,10 +1,10 @@
-import { NgFor } from '@angular/common';
+import { NgFor, NgIf } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-project',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, NgIf],
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss',
 })
