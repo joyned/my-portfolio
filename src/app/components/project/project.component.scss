@@ -13,6 +13,14 @@
       align-items: center;
       justify-content: center;
       margin-top: 20px;
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+        transition: 0.3s;
+        background-color: var(--bgCoolor);
+      }
 
       .project-content {
         display: flex;
