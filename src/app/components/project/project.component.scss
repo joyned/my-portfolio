@@ -24,6 +24,7 @@
           gap: 13px;
           display: flex;
           flex-direction: column;
+          color: var(--textColor);
 
           .project-logo {
             width: 30px;
@@ -42,7 +43,7 @@
         }
 
         .project-body {
-          color: var(--text-color);
+          color: var(--textColor);
 
           .project-status {
             margin-top: 10px;
@@ -65,7 +66,7 @@
 
           a {
             text-decoration: none;
-            color: var(--text-color);
+            color: var(--textColor);
             font-size: 12px;
           }
         }

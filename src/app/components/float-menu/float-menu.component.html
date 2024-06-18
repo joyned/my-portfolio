@@ -6,5 +6,13 @@
     <div class="menu-item" (click)="goTo('about')">
       <span>About</span>
     </div>
+    <div class="menu-item">
+      <span *ngIf="!darkModeService.isDarkMode()" (click)="changeTheme()">
+        <img src="../../../assets/images/moon-svgrepo-com.svg">
+      </span>
+      <span *ngIf="darkModeService.isDarkMode()" (click)="changeTheme()">
+        <img src="../../../assets/images/sun-2-svgrepo-com.svg">
+      </span>
+    </div>
   </nav>
 </div>
