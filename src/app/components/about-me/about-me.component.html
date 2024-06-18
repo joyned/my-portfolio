@@ -2,11 +2,18 @@
   <div class="about-me-text">
     <h1>Hi, I'm Bruno Bizeray</h1>
     <p>
-      Specialist in Software Architecture, with over 6 years of experience in software development and 3 years of experience specifically in architecture. Leading teams to create scalable and secure solutions while automating processes to boost operational efficiency.
+      Specialist in Software Architecture, with over 6 years of experience in software development and 3 years of
+      experience specifically in architecture. Leading teams to create scalable and secure solutions while automating
+      processes to boost operational efficiency.
     </p>
     <div class="links">
       <a href="https://www.linkedin.com/in/brunodsbg" target="_blank">
-        <img src="../assets/images/linkedin-svgrepo-com.svg" alt="">
+        <img src="../assets/images/linkedin-svgrepo-com.svg" alt="" *ngIf="!darkModeService.isDarkMode()">
+        <img src="../assets/images/linkedin-white.svg" alt="" *ngIf="darkModeService.isDarkMode()">
+      </a>
+      <a href="" target="_blank">
+        <img src="../assets/images/github-svgrepo-com.svg" *ngIf="!darkModeService.isDarkMode()">
+        <img src="../assets/images/github-white.svg" *ngIf="darkModeService.isDarkMode()">
       </a>
     </div>
   </div>

@@ -7,10 +7,12 @@
         processes to boost operational efficiency..</span>
       <div class="about-page-links">
         <a href="" target="_blank">
-          <img src="../assets/images/linkedin-svgrepo-com.svg">
+          <img src="../assets/images/linkedin-svgrepo-com.svg" alt="" *ngIf="!darkModeService.isDarkMode()">
+          <img src="../assets/images/linkedin-white.svg" alt="" *ngIf="darkModeService.isDarkMode()">
         </a>
         <a href="" target="_blank">
-          <img src="../assets/images/github-svgrepo-com.svg">
+          <img src="../assets/images/github-svgrepo-com.svg" *ngIf="!darkModeService.isDarkMode()">
+          <img src="../assets/images/github-white.svg" *ngIf="darkModeService.isDarkMode()">
         </a>
       </div>
     </div>
